@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Futbol</string>
+    <string name="win">WIN!</string>
+    <string name="draw">Draw</string>
+    <string name="lose">Lose</string>
+    <string name="reset">Reset</string>
+</resources>

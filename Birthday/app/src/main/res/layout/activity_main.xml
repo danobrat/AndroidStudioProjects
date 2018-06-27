@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.birthdaycard.daniel.birthday.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bdaycake" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy"
+        android:rotation="-12"
+        android:textColor="#7B68EE"
+        android:textStyle="bold"
+        android:background="#90EE90"
+        android:textSize="40dp"
+        android:padding="8dp"
+    android:id="@+id/happy"
+        />
+
+    <TextView
+        android:id="@+id/text90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/happy"
+        android:layout_marginTop="16dp"
+        android:background="#00BFFF"
+        android:padding="8dp"
+        android:rotation="-12"
+        android:text="90th"
+        android:textColor="#7B68EE"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text90"
+        android:layout_marginTop="8dp"
+        android:background="#90EE90"
+        android:padding="8dp"
+        android:rotation="-12"
+        android:text="Birthday"
+        android:textColor="#7B68EE"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/birthday"
+        android:layout_marginTop="12dp"
+        android:background="#00BFFF"
+        android:padding="8dp"
+        android:rotation="-12"
+        android:text="Grandma"
+        android:textColor="#7B68EE"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Love Danielle"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="8dp"
+
+        />
+</RelativeLayout>

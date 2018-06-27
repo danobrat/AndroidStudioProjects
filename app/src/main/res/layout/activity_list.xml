@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:background="#FFFFFF"
+    android:minHeight="122dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="122dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/monorail" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/image"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/monorail_address" />
+
+        <TextView
+            android:id="@+id/price_text"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/address_text"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="@string/monorail_price" />
+
+        <TextView
+            android:id="@+id/hours_text"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/price_text"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:text="@string/monorail_hours" />
+    </RelativeLayout>
+</RelativeLayout>

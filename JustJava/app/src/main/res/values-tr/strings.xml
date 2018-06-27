@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="Chocolate">çikolata</string>
+    <string name="toppings">Soslar</string>
+    <string name="whipped_Cream">Krem şanti</string>
+    <string name="Quantity">miktar</string>
+    <string name="ORDER">sipariş</string>
+    <string name="thank_you">"teşekkür ederim"</string>
+    <string name="total">Toplam:tl</string>
+    <string name="chocolate">çikolata ekle?</string>
+    <string name="Qty">miktar:</string>
+    <string name="cream">"Krem şanti ekle? "</string>
+    <string name="subject">Için kahve siparişi </string>
+</resources>
